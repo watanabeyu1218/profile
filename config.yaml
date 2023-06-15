@@ -1,0 +1,44 @@
+baseURL: "https://satooru.me/"
+title: "aaaa"
+author: "SatooRu"
+copyright: "SatooRu © 2022 Copyright."
+paginate: 3
+languageCode: "ja"
+DefaultContentLanguage: "ja"
+uglyURLs: false
+theme: "satooru-hugo-theme"
+
+markup:
+  tableOfContents:
+    startLevel: 2
+    endLevel: 6
+    ordered: false
+
+  highlight:
+    codeFences: true
+    noClasses: true
+    guessSyntax: true
+    tabWidth: 4
+    style: base16-snazzy
+
+  goldmark:
+    renderer:
+      unsafe: true
+
+params:
+  share_img: "images/share_image.png"
+  twitterCardDomain: "satooru.me"
+  github:
+    id: "SatooRu65536"
+
+  twitter:
+    id: "SatooRu_65536"
+
+  header:
+    title: "SatooRu's Profile"
+    themeToggle: true
+
+  top:
+    icon: "images/icon.png"
+    author: "SatooRu"
+    text: "Hi, There🐣"
